@@ -2,6 +2,8 @@ package list;
 
 /**
  * 双向链表（哨兵模式）
+ * <p>
+ * 在插入和删除元素时，不用考虑边界问题。
  *
  * @param <E>
  * @author Sunmoon
