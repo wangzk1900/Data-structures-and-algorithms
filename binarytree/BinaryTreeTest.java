@@ -3,13 +3,13 @@ package binarytree;
 /**
  * 测试 BinaryTree<E> 中的方法
  *
- *            A         height = 3  level =4
+ *            A         height = 3  level =1
  *          /   \
- *         B     C      height = 2  level =3
+ *         B     C      height = 2  level =2
  *        / \   / \
- *       D   E F   G    height = 1  level =2
+ *       D   E F   G    height = 1  level =3
  *      / \
- *     H  null          height = 0  level =1
+ *     H  null          height = 0  level =4
  *    / \
  * null null            height = -1
  *
