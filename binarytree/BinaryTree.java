@@ -74,11 +74,11 @@ public class BinaryTree<E>
     /**
      * 从根节点开始，按层插入新的元素
      *
-     * @param e
+     * @param data
      */
-    public void insert(E e)
+    public void insert(E data)
     {
-        Node<E> newNode = new Node<>(e, null, null);
+        Node<E> newNode = new Node<>(data);
         if (isEmpty())
         {
             root = newNode;
@@ -237,11 +237,10 @@ public class BinaryTree<E>
         Node<E> leftChild;
         Node<E> rightChild;
 
-        Node(E e, Node leftChild, Node rightChild)
+        Node(E data)
         {
-            this.data = e;
-            this.leftChild = leftChild;
-            this.rightChild = rightChild;
+            this.data = data;
         }
     }
 }
+
